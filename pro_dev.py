@@ -301,7 +301,7 @@ if __name__=="__main__":
             try:
                 subprocess.check_output(['am', 'start', 'https://youtu.be/ZpLTqwmy7ck'])
             except KeyboardInterrupt:
-                psubprocess.check_output(['am', 'start', 'https://youtu.be/ZpLTqwmy7ck'])
+                subprocess.check_output(['am', 'start', 'https://youtu.be/ZpLTqwmy7ck'])
             except WindowsError:
                 os.system('pro_dev.py' if os.name == 'nt' else 'python2 pro_dev.py')
 
