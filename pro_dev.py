@@ -346,9 +346,9 @@ if __name__=="__main__":
 
         elif pilih == '4':
             try:
-                subprocess.check_output(['am', 'start', 'https://youtu.be/ZpLTqwmy7ck'])
+                subprocess.check_output(['am', 'start', 'https://www.youtube.com/channel/UCvjRdkX9q8udv5ZXmhhLZxg'])
             except KeyboardInterrupt:
-                subprocess.check_output(['am', 'start', 'https://youtu.be/ZpLTqwmy7ck'])
+                subprocess.check_output(['am', 'start', 'https://www.youtube.com/channel/UCvjRdkX9q8udv5ZXmhhLZxg'])
             except WindowsError:
                 os.system('pro_dev.py' if os.name == 'nt' else 'python2 pro_dev.py')
 
